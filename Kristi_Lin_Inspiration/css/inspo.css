@@ -1,0 +1,107 @@
+@font-face {
+    font-family:'Monsieur La Doulaise', cursive;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://fonts.google.com/share?selection.family=Italianno|Monsieur+La+Doulaise);
+}
+
+@font-face {
+    font-family:'Italianno', cursive;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://fonts.google.com/share?selection.family=Italianno|Monsieur+La+Doulaise);
+}
+
+body {
+    font-family: 'Italianno', sans-serif;
+    font-size: 20px;
+    color: #8f9779;
+    background-color: #4B3619;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: #c5a46c;
+    padding-top: 5px;
+    margin: -10px;
+    height: 30px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    /* code from: https://stackoverflow.com/questions/4108726/how-to-spread-elements-horizontally-evenly */
+}
+
+h2 {
+        font-family: 'Italianno', sans-serif;
+        font-size: 40px;
+        letter-spacing: 15px;
+        color: #c5a46c;
+        text-transform: uppercase;
+        width: max-content;
+}
+
+h2:hover {
+    background-color: #e0c390;
+    box-shadow: 0 0 30px rgba(249, 225, 121, 0.5);
+    /* code from: https://prismic.io/blog/css-hover-effects */
+}
+
+#acne {
+    margin-left: 23.5%;
+}
+
+#ecco {
+    margin-left: 31%;
+}
+
+#happy {
+    margin-left: 29%;
+}
+
+h4 {
+    border-radius: 5px;
+    padding: 5px;
+    inline-size: 100%;
+    margin-top: 10%;
+}
+
+.inspiration {
+    width:50em; 
+    text-align:justify; 
+    margin-left: 12.5%;
+}
+
+.image {
+    width: 50%;
+    margin-left: 22.5%;
+    border-width: 5px;
+    border-color: #c5a46c;
+    border-style: groove;
+}
+
+section {
+display: inline-block;
+padding: 5%;
+}
+
+footer {
+    background-color: #c5a46c;
+    padding-bottom: 5px;
+    margin: -10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30%;
+    text-align: center;
+}
+
+a {
+    color: #591111;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    /* code from: https://www.w3schools.com/cssref/sel_hover.php */
+}

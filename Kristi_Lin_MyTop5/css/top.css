@@ -1,0 +1,172 @@
+@font-face {
+    font-family:'Monsieur La Doulaise', cursive;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://fonts.google.com/share?selection.family=Italianno|Monsieur+La+Doulaise);
+}
+
+@font-face {
+    font-family:'Italianno', cursive;
+    font-weight: 500;
+    font-style: normal;
+    src: url(https://fonts.google.com/share?selection.family=Italianno|Monsieur+La+Doulaise);
+}
+
+body {
+    font-family: 'Italianno', sans-serif;
+    font-size: 20px;
+    color: #8f9779;
+    background-color: #4B3619;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: #c5a46c;
+    padding-top: 5px;
+    margin: -10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 4px;
+    /* code from: https://stackoverflow.com/questions/4108726/how-to-spread-elements-horizontally-evenly */
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 13px;
+}
+
+h2 {
+    font-family: 'Monsieur La Doulaise', sans-serif;
+    font-size: 80px;
+    color: #c5a46c;
+    background-color: #4B3619;
+    text-transform: uppercase ;
+    text-align: center;
+    letter-spacing: 13px ;
+}
+
+h3 {
+    width: 400px;
+    padding: 1%;
+}
+
+h4 {
+    border-radius: 5px;
+    padding: 5px;
+    inline-size: 100%;
+    margin-top: 10%;
+}
+
+.png1 {
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.png2 {
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+    float: inline-end;
+    /* code from: https://www.w3schools.com/howto/howto_css_image_center.asp */
+}
+
+li {
+    color: #591111;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 15px;
+    width: max-content;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+li:hover {
+    background-color: #e0c390;
+    box-shadow: 0 0 30px rgba(249, 225, 121, 0.5);
+    /* code from: https://prismic.io/blog/css-hover-effects */
+}
+
+footer {
+    background-color: #c5a46c;
+    padding-bottom: 5px;
+    margin: -10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30%;
+    text-align: center;
+}
+
+a {
+    color: #591111;
+    font-size: 20px;    
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    /* code from: https://www.w3schools.com/cssref/sel_hover.php */
+
+}
+
+#artist {
+    color:#c5a46c;
+    border-color: #8f9779;
+    border-style: dotted;
+    border-width: 4px;
+    padding-left: 7px;
+}
+
+#album {
+    color:#c5a46c;
+    border-color: #8f9779;
+    border-style: dotted;
+    border-width: 4px;
+    padding-left: 7px;
+}
+
+.container { 
+    width: auto;
+    height: auto;
+    margin-left: 3%;
+    position: relative; 
+    display: inline-block; 
+} 
+ 
+.hidden { 
+    text-align: center;
+    opacity: 0; /* Initially hidden */ 
+    visibility: hidden; /* Prevents interaction */ 
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */ 
+} 
+ 
+.container:hover .hidden { 
+    opacity: 1; /* Show the text */ 
+    visibility: visible; /* Allows interaction */ 
+}
+
+.container2 { 
+    margin-right: 4%;
+    position:relative;  
+    display: block;
+    float: right;
+} 
+ 
+.hidden2 { 
+    text-align:left;
+    opacity: 0; /* Initially hidden */ 
+    visibility: hidden; /* Prevents interaction */ 
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */ 
+} 
+ 
+.container2:hover .hidden2 { 
+    opacity: 1; /* Show the text */ 
+    visibility: visible; /* Allows interaction */ 
+}
+/* code from: https://www.quora.com/How-can-you-show-and-hide-text-on-hover-using-only-CSS#:~:text=%C2%B7%2010mo-,You%20can%20show%20and%20hide%20text%20on%20hover%20using%20CSS,hide%20(hidden%2Dtext). */
