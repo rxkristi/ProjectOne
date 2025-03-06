@@ -31,6 +31,22 @@ nav {
     /* code from: https://stackoverflow.com/questions/4108726/how-to-spread-elements-horizontally-evenly */
 }
 
+#me {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #c5a46c;
+    display: inline-block;
+    width: 33%;
+    height: 33%;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+img {
+    display: block;
+    float: right;
+}
+
 h2 {
     font-family: 'Monsieur La Doulaise', sans-serif;
     font-size: 70px;
@@ -46,6 +62,7 @@ h2 {
 }
 
 h4 {
+    font-size: 30px;
     border-radius: 5px;
     padding: 5px;
     inline-size: 100%;
